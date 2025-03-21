@@ -1,0 +1,28 @@
+{
+  "name": "LightViewer",
+  "version": "1.0.0",
+  "description": "Electron app with uPlot",
+  "main": "dist/main/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "electron": "^28.2.8",
+    "typescript": "^5.4.2",
+    "vite": "^6.2.2"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uplot": "^1.6.32"
+  }
+}
